@@ -34,10 +34,9 @@ $(document).ready(function() {
       $('.ryu-cool').show();
     }
   })
-    .keyup(function(event) {
+    .keyup(function() {
       $('.ryu-still').show();
       $('.ryu-cool').hide();
-      (event.reset);
   })
 });
 function playHadouken ()	{
